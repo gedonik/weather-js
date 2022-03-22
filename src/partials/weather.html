@@ -1,0 +1,45 @@
+<section class="weather">
+  <div class="container weather__container">
+    <h1 class="title weather__title visually-hidden">
+      Wheather API by gedonik with js native
+    </h1>
+    <div class="weather__inner">
+      <div class="weather__search">
+        <input class="weather__input" type="text" placeholder="Search" />
+        <button class="btn-reset weather__btn" data-graph-path="" type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+            <path
+              style="
+                stroke: none;
+                fill-rule: nonzero;
+                fill: inherit;
+                fill-opacity: 1;
+              "
+              d="M8.668 2C4.9922 2 2 4.9922 2 8.668c0 3.6718 2.9922 6.664 6.668 6.664 1.5976 0 3.0625-.5664 4.2148-1.5078l3.9805 3.9805c.164.1758.414.246.6484.1836a.6685.6685 0 0 0 .4766-.4766c.0625-.2344-.0078-.4844-.1836-.6484l-3.9805-3.9805c.9414-1.1523 1.5078-2.6172 1.5078-4.2148C15.332 4.9922 12.3398 2 8.668 2Zm0 1.332C11.621 3.332 14 5.7148 14 8.668 14 11.621 11.621 14 8.668 14c-2.9532 0-5.336-2.379-5.336-5.332 0-2.9532 2.3828-5.336 5.336-5.336Zm0 0"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div class="weather__item weather__city">City: Moscow</div>
+      <div class="weather__item weather__cloud">
+        <img
+          class="weather__icon"
+          src="https://openweathermap.org/img/wn/03d.png"
+          alt="icon"
+        />
+        <span class="weather__descr">Overcast cloud</span>
+      </div>
+      <div class="weather__item weather__temp">Temperature: 5 &deg;С</div>
+      <div class="weather__item weather__feel">Feels like: 8 &deg;С</div>
+      <div class="weather__item weather__humidity">Humidity: 56%</div>
+      <div class="weather__item weather__pressure">Pressure: 744 bar</div>
+      <div class="weather__item weather__wind">Wind speed: 5.14 m/s</div>
+
+      <select class="weather__lang" name="lang" id="lang">
+        <option class="weather__en" value="en" selected>en</option>
+        <option class="weather__ru" value="ru">ru</option>
+      </select>
+    </div>
+  </div>
+</section>

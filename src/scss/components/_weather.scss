@@ -1,0 +1,92 @@
+.weather {
+  position: relative;
+  min-height: 100vh;
+  padding: 15px;
+  background-image: url("https://source.unsplash.com/1920x1080/?landscape");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--light-color);
+
+  &__title {
+    text-align: center;
+  }
+
+  &__inner {
+    position: absolute;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 35px;
+    background-color: var(--inner-bg);
+    border-radius: 7px;
+  }
+
+  &__search {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__input {
+    height: 30px;
+    width: 85%;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: transparent;
+    color: var(--light-color);
+    border-color: var(--main-bg);
+
+    &::placeholder {
+      color: var(--main-bg);
+    }
+  }
+
+  &__btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--main-bg);
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: var(--light-color);
+    }
+  }
+
+  &__item {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__city {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  &__cloud {
+    display: flex;
+    align-items: center;
+  }
+
+  &__descr {
+    text-transform: capitalize;
+  }
+
+  &__lang {
+    display: block;
+    width: 60px;
+    margin-left: auto;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: var(--main-bg);
+  }
+}
