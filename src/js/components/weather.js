@@ -1,7 +1,7 @@
 "use strict";
 
 window.addEventListener("DOMContentLoaded", () => {
-  const apiKey = "API-KEY",
+  const apiKey = "API_KEY",
     city = document.querySelector(".weather__city"),
     temperature = document.querySelector(".weather__temp"),
     feel = document.querySelector(".weather__feel"),
