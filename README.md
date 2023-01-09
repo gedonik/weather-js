@@ -22,7 +22,7 @@ HTML, CSS, SCSS, Gulp, JS.
 
 ## Demo
 
-https://gedonik.club/weather/
+https://www.gedonik.ru/weather/
 
 ## Screenshots
 
